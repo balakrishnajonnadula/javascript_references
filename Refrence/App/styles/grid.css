@@ -1,0 +1,31 @@
+.cont{
+    border: 1px solid #e2e2e2;
+    overflow: hidden;
+    padding: 5px;
+    margin: 5px;
+}
+.cont img{
+    float: left;
+    width: 60px;
+}
+.cont .name {
+    float: left;
+    font-size: 14px;
+    padding: 10px;
+}
+.cont button{
+    float: right;
+    margin: 10px;
+    padding: 0 10px;
+    line-height: 30px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.cont .edit{
+    background: #007de8;
+}
+.cont .deletes{
+    background: rgba(186, 0, 36, 0.95);
+}

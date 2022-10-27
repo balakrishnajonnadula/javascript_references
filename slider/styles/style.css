@@ -1,0 +1,38 @@
+.cont{
+    
+    width: 80%;
+    margin: auto;
+    border: 1px solid #e2e2e2;
+    position: relative;
+}
+.wrapper{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.left-arrow{
+    position: absolute;
+    left: -40px;
+    top: 0;
+    font-size: 30px;
+    line-height: 300px;
+    cursor: pointer;
+}
+.right-arrow{
+    position: absolute;
+    right: -40px;
+    top: 0;
+    font-size: 30px;
+    line-height: 300px;
+    cursor: pointer;
+}
+.image{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+}

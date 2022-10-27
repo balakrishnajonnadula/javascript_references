@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 1px solid #e2e2e2;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+    line-height: 150px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.odd{
+    
+    background: #d30000;
+}
+
+.even{
+    
+    background: #2cbc00;
+}

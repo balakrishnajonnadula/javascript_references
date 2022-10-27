@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    margin:50px auto;
+    display: table;
+}
+button{
+    padding: 5px 10px;
+}
+.para{
+    border-bottom: 1px solid #e2e2e2;
+    padding: 5px;
+    overflow: hidden;
+}
+span{
+   float: right;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.clear{
+    display: block;
+    float: none;
+    clear: both;
+}

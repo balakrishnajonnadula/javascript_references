@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: arial;
+}
+.box{
+    border: 1px solid #e2e2e2;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+}
+.title{
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+p{
+    color: #888;
+    font-size: 14px;
+}
+.left{
+    
+    float: left;
+    
+}
+.right{
+    float: right;
+}
+
+button{
+    padding: 7px 20px;
+    margin: 5px;    
+}
+
+button.blue{
+    background: #0394b7;
+    border: 1px solid #0084a3;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+}
+button.red{
+    background: #b70303;
+    border: 1px solid #b10505;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+}
+[contenteditable='true']{
+    border: 1px solid #333;
+}
+
+.folding{
+    color: #0394b7;
+}

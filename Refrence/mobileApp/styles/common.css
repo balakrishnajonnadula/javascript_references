@@ -1,0 +1,47 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.screen{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #00BEB4;
+    transition: .3s ease-in-out;
+}
+#screen2,#screen3{
+    transform: translateX(100%);
+    background: #c00;
+}
+#screen3{
+    background: blue;
+}
+.image{
+    width: 100%;
+}
+
+.btn{
+    padding: 0 30px;
+    line-height: 40px;
+    background: #c00;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.center{
+    display: table;
+    margin: auto;
+}

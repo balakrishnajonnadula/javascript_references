@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+    
+    <head>
+    <title>Form validations</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <script src="utils/jquery-3.1.1.min.js"></script>
+    <script src="app.js"></script>
+    </head>
+    
+    <body>
+    
+    
+         <!-- html5 validation -->
+       <!-- <form>
+       
+        
+            <div class="field">
+            <label>First name<span>*</span></label>
+            <input type="text" placeholder="Enter your first name" maxlength="5" required>
+            </div>
+        
+            <div class="field">
+            <label>Last name</label>
+            <input type="text">
+            </div>
+            
+            <div class="field">
+            <label>Email<span>*</span></label>
+            <input type="email" required>
+            </div>
+        
+            
+            <div class="field">
+            <label>Password<span>*</span></label>
+            <input type="password" required>
+            </div>
+        
+        
+        <button type="submit">Submit</button>
+        
+            <div class="clear"></div>
+        </form>
+        -->
+    
+        <form>
+       
+        
+            <div class="field">
+            <label>First name<span>*</span></label>
+            <input type="text" placeholder="Enter your first name" id="fname">
+                <div class="error">Please enter your first name</div>
+            </div>
+        
+            <div class="field">
+            <label>Last name</label>
+            <input type="text" id="lname">
+                <div class="error">Please enter your last name</div>
+            </div>
+            
+            <div class="field">
+            <label>Email<span>*</span></label>
+            <input type="email" id="email">
+                <div class="error">Please enter your email address</div>
+            </div>
+        
+            
+            <div class="field">
+            <label>Password<span>*</span></label>
+            <input type="password" id="password">
+                <div class="error">Please enter your password</div>
+            </div>
+        
+        
+        <button type="button" id="submit">Submit</button>
+        
+            <div class="clear"></div>
+        </form>
+        
+    
+    </body>
+
+
+</html>

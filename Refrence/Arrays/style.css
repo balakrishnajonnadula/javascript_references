@@ -1,0 +1,12 @@
+.box{
+    border: 1px solid #e2e2e2;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+.box h1,.box p{
+    
+    text-align: center;
+    
+}

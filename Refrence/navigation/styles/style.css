@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    display: table;
+    margin: 20px auto;
+    border: 1px solid #e2e2e2;
+    position: relative;
+}
+.nav li{
+    
+    float: left;
+    padding: 7px 20px;
+    list-style: none;
+    transition: .5s all;
+}
+.fill{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #03c793;
+    z-index: -1;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #e2e2e2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .5s ease-in-out;
+    box-sizing: border-box;
+}
+
+.btn{
+    
+    display: table;
+    margin:200px auto;
+    padding: 5px 20px;
+}

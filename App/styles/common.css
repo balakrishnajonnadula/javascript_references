@@ -1,0 +1,125 @@
+@font-face{
+    font-family:roboto;
+    src:url(../fonts/Roboto-Regular.ttf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family:roboto;
+    src:url(../fonts/Roboto-Medium.ttf);
+    font-weight:600;
+}
+@font-face{
+    font-family:roboto;
+    src:url(../fonts/Roboto-Bold.ttf);
+    font-weight:bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    font-family: roboto;
+    font-weight: normal;
+    background: #f6f6f6;
+    font-size: 16px;
+}
+
+.header{
+    height: 60px;
+    background: #007de8;
+}
+.header h1{
+    line-height: 60px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.title{
+    font-size: 20px;
+    color: #333;
+    padding: 10px;
+}
+.form{
+    box-shadow: 1px 1px  5px rgba(0,0,0,.2);
+    background: #fff;
+    width: 30%;
+    border-radius: 3px;
+}
+.form.center{
+    padding: 10px;
+    display: table;
+    margin: auto;
+}
+.form label{
+    display: block;
+    padding: 10px 0;
+}
+.form input{
+    width: 100%;
+    line-height: 34px;
+    border-radius: 2px;
+    border: 1px solid #e2e2e2;
+    margin: 5px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.form button{
+    float: right;
+    border: none;
+    background: #007de8;
+    line-height: 34px;
+    padding: 0 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: normal;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.error{
+    color: red;
+    display: none;
+}
+.green{
+    color: green;
+}
+.left{
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    background: #f6f6f6;
+    
+}
+.left ul li{
+    line-height: 40px;
+    padding: 0 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.right{
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    float: left;
+}
+.active{
+    border-left: 5px solid #007de8;
+    background: #fff;
+}
+.user-header{
+    background: #0371d0;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    padding: 0 20px;
+    color: #fff;
+}

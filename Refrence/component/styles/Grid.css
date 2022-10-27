@@ -1,0 +1,45 @@
+.g-cont{
+    
+    border: 1px solid #e2e2e2;
+    margin: 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+.g-left{
+    
+    float: left;
+}
+.g-right{
+    
+    float: right;
+}
+.g-image{
+    width: 80px;
+    height: 100px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+.g-details{
+    float: left;
+    padding: 10px;
+}
+.g-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.g-desc{
+    font-size: 16px;
+    color: #888;
+}
+
+.btn{
+    padding: 7px 20px;
+    background: #0699b4;
+    color: #fff;
+    border: 1px solid #0699b4;
+    margin: 10px;
+    border-radius: 3px;
+}

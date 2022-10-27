@@ -1,0 +1,9 @@
+.grid-cont{
+    border: 1px solid #e2e2e2;
+    margin: 10px;
+    padding: 10px;
+}
+.grid-title{
+    font-size: 16px;
+    text-align: center;
+}

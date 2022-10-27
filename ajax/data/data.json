@@ -1,0 +1,22 @@
+[
+
+    {
+        "name": "Ramesh",
+        "edu": " B.Tech",
+        "image": "1.jpg"
+
+        },
+    {
+        "name": "Suresh",
+        "edu": " M.Tech",
+        "image": "2.jpg"
+
+        },
+    {
+        "name": "Naresh",
+        "edu": "MCA",
+        "image": "3.jpg"
+
+        }
+
+    ]

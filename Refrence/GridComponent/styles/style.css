@@ -1,0 +1,16 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 80px;
+    background: #00adcc;
+}
+
+.header p{
+    line-height: 80px;  
+    color: #fff;
+    text-align: center;
+}
